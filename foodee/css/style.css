@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background-color: aquamarine;
+} */
+
+/* navbar */
+.navbar{
+    --bs-navbar-padding-y: rem;
+}
+.navbar_menu{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #8eb3e3bf;
+}
+#brand_name{
+    font-weight: bolder;
+    font-size: 2em;
+    color: #2a3971;
+}
+
+
+
+/* slider only  */
+.slider_img{
+    height: 380px;
+    width: 100%;
+    object-fit: cover;
+
+}
+.slider{
+    padding: 1%;
+}
+
+
+/* heading section  */
+.header_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4%;
+}
+.header_container h1{
+    font-size: 4em;
+    text-align: center;
+    font-weight: bold;
+    color: #2a3971;
+    font-family: 'Ubuntu';
+}
+.btn_heading{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    padding: 0 13% 0;
+}
+.btn{
+    width: 8em;
+}
+.btn:hover {
+    color: #feffff;
+    background-color: #3c52d8db;
+    border-color: #02020c;
+}
+
+
+/* section indianfood */
+#Indianfood{
+    background-color: #a2c9e8;
+    padding: 5%;
+    margin: 10% 0;
+}
+.indianfood_img{
+    height: 13em;
+    width: 17em;
+    border-radius: 1em;
+}
+.indianfood_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divIndianfood{
+    width: 70%;
+}
+.divIndianfood h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+.divIndianfood p{
+    font-size: 1.3em;
+    font-family: cursive;
+    color: ghostwhite;
+}
+.indianfood_imgdiv{
+    width: auto;
+}
+.btnknow{
+    text-align: center;
+}
+.btncontrol{
+    /* position: fixed; */
+    margin: -8%;
+}
+
+
+/* items section  */
+.items{
+    margin: 15% 0;
+    background-color: #a2c9e8;
+    padding: 6% 5%;
+}
+
+
+
+
+/* tale section  */
+#tale{
+    background-color: #a2c9e8;
+
+}
+.talediv h1{
+    font-size: 4em;
+    padding: 1em 0;
+    text-align: center;
+    color: #2a3971;
+    font-weight: bold;
+    font-family: 'Ubuntu';
+}
+.talediv p{
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 0 14% 4%;
+    color: white;
+}
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 35% 2%;
+
+
+}
+
+
+/* footer section  */
+.footer{
+    margin: 13% 0;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 4% 0;
+    width: inherit;
+}
+.logos_content{
+    margin: 2% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logos_content i{
+    font-size: 4em;
+    margin: 0 0 12%;
+    color: #64c2edc9;
+}
+
+
+
+.footer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #76b5dce3;
+}
+.footer2 p{
+    margin-bottom: 0;
+    margin: 0 3%;
+}
+.contact{
+    display: flex;
+
+}
+.contact i{
+    padding: 0 11%;
+}
+.contains{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

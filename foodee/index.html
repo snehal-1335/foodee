@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foodee</title>
+  <link rel="icon" href="images/restaurant.png">
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+
+  <!-- bootstrap animation -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+  <!-- fabicons -->
+  <script src="https://kit.fontawesome.com/3256da4e0e.js" crossorigin="anonymous"></script>
+
+  <!-- google fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Explora&family=Montserrat&family=Roboto+Mono&family=Ubuntu&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/tab.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar_menu">
+    <div class="container-fluid">
+      <a class="navbar-brand" id="brand_name" href="#">Foodee</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Store
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Nearby</a></li>
+              <li><a class="dropdown-item" href="#">Restarunts</a></li>
+              <li><a class="dropdown-item" href="#">Current Location </a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Food
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Indian</a></li>
+              <li><a class="dropdown-item" href="#">Italian</a></li>
+              <li><a class="dropdown-item" href="#">Fast food</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Contact Us</a></li>
+              <li><a class="dropdown-item" href="#">Community</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <li><a class="dropdown-item" href="#">Join Us</a></li>
+            </ul>
+          </li>
+          <!-- <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li> -->
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- slider section  -->
+  <div class="container-md">
+    <section class="slider">
+      <div id="my_slider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#my_slider" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#my_slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#my_slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="images/pexels-ella-olsson-1640774.jpg" class="slider_img" alt="img" />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/pexels-marvin-ozz-2474658.jpg" class="slider_img" alt="img" />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/pexels-engin-akyurt-1437267.jpg" class="slider_img" alt="img" />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#my_slider" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#my_slider" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- heading section  -->
+    <section class="heading">
+      <div class="header_container container-md">
+        <h1>Welcome to the World of Food</h1>
+        <div class="btn_heading">
+          <button class="btn btn-outline-primary">Join</button>
+          <button class="btn btn-primary">Share</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- content section  -->
+
+    <section id="Indianfood">
+      <div id="carouselExample" class="carousel slide" data-bs-touch="true">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container-md">
+              <div class="row indianfood_container">
+                <div class="col-lg-6 divIndianfood">
+                  <h1>Indian</h1>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Enim magni officia labore reiciendis odio ducimus
+                    doloribus! Consequuntur ratione, incidunt veniam porro
+                    nemo accusantium aliquam quod similique nesciunt obcaecati
+                    aperiam deleniti quam iste fugiat, et fugit quas veritatis
+                    odio magnam commodi quos magni tenetur! Dolorem, repellat.
+                  </p>
+                </div>
+                <div class="col-lg-6 indianfood_imgdiv">
+                  <img src="images/pexels-foodie-factor-539451.jpg" class="indianfood_img" alt="img" />
+                </div>
+              </div>
+              <div class="btnknow">
+                <button class="btn btn-outline-dark">Know more</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="container-md">
+              <div class="row indianfood_container">
+                <div class="col-lg-6 divIndianfood">
+                  <h1>Western</h1>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Enim magni officia labore reiciendis odio ducimus
+                    doloribus! Consequuntur ratione, incidunt veniam porro
+                    nemo accusantium aliquam quod similique nesciunt obcaecati
+                    aperiam deleniti quam iste fugiat, et fugit quas veritatis
+                    odio magnam commodi quos magni tenetur! Dolorem, repellat.
+                  </p>
+                </div>
+                <div class="col-lg-6 indianfood_imgdiv">
+                  <img src="images/pexels-valeria-boltneva-580612.jpg" class="indianfood_img" alt="img" />
+                </div>
+              </div>
+              <div class="btnknow">
+                <button class="btn btn-outline-dark">Know more</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="container-md">
+              <div class="row indianfood_container">
+                <div class="col-lg-6 divIndianfood">
+                  <h1>Street Food</h1>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Enim magni officia labore reiciendis odio ducimus
+                    doloribus! Consequuntur ratione, incidunt veniam porro
+                    nemo accusantium aliquam quod similique nesciunt obcaecati
+                    aperiam deleniti quam iste fugiat, et fugit quas veritatis
+                    odio magnam commodi quos magni tenetur! Dolorem, repellat.
+                  </p>
+                </div>
+                <div class="col-lg-6 indianfood_imgdiv">
+                  <img src="images/pexels-cats-coming-674574.jpg" class="indianfood_img" alt="img" />
+                </div>
+              </div>
+              <div class="btnknow">
+                <button class="btn btn-outline-dark">Know more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev btncontrol" type="button" data-bs-target="#carouselExample"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next btncontrol" type="button" data-bs-target="#carouselExample"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- items section  -->
+    <div class="row items">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img src="images/pexels-dana-tentis-1213710.jpg" alt="danaimg" class="card-img-top" />
+          <div class="card-body">
+            <h3 class="card-title">Dana</h3>
+            <p class="card-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit,
+              porro rerum sint impedit delectus esse et eos itaque nam odit?
+            </p>
+            <div class="btn btn-outline-primary btn_card">Show more</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img src="images/pexels-ella-olsson-1640773.jpg" alt="ella img" class="card-img-top" />
+          <div class="card-body">
+            <h3 class="card-title">Ella</h3>
+            <p class="card-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Minima, iusto reiciendis. Modi commodi ducimus quidem quos aut
+            </p>
+            <div class="btn btn-outline-primary btn_card">Show more</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img src="images/pexels-engin-akyurt-1437267.jpg" alt="images" class="card-img-top" />
+          <div class="card-body">
+            <h3 class="card-title">Engin</h3>
+            <p class="card-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Minima, iusto reiciendis. Modi commodi ducimus quidem quos aut
+            </p>
+            <div class="btn btn-outline-primary btn_card">Show more</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img src="images/pexels-mareefe-678414.jpg" alt="images" class="card-img-top" />
+          <div class="card-body">
+            <h3 class="card-title">Mareefe</h3>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              cumque exercitationem asperiores esse vitae labore iste quo
+            </p>
+            <div class="btn btn-outline-primary btn_card">Show more</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- talling section  -->
+    <section id="tale">
+      <div class="container-fluid talediv">
+        <h1>Good Food is always connects the peoples to each other.</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores a
+          ullam autem fuga dolore, reprehenderit animi tempore, aliquam vitae
+          neque sequi ut tenetur suscipit fugit.
+        </p>
+
+        <div class="btns btns_tale">
+          <button class="btn btn-dark btn_tale">Place Order</button>
+          <button class="btn btn-outline-dark btn_tale">Find More</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section  -->
+    <footer class="footer">
+      <div class="container-fluid footer1">
+        <h3>Our official partners</h3>
+        <div class="row logos">
+          <div class="col-3">
+            <div class="logos_content">
+              <i class="fa-solid fa-briefcase"></i>
+              <h5>clones</h5>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="logos_content">
+              <i class="fa-sharp fa-solid fa-registered"></i>
+              <h5>Rolvale</h5>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="logos_content">
+              <i class="fa-solid fa-trademark"></i>
+              <h5>Taam</h5>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="logos_content">
+              <i class="fa-solid fa-magnet"></i>
+              <h5>Uderns</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      
+    </footer>
+
+    <!-- <div class="footer2 container-fluid">
+      <div class="contains container-md">
+        <p> &copy;All Rights Are Reserved</p>
+      <div class="contact">
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-facebook"></i>
+      </div>
+      </div>
+    </div>
+     -->
+  </div>
+
+  
+</body>
+
+</html>
